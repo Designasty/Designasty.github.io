@@ -16,7 +16,7 @@
     text-align: center;
     font-family: cursive;
 }
-#heading-2{
+#heading-3{
     text-align: center;
 }
 #color-block-3{
@@ -25,3 +25,25 @@
     text-align: center;
     font-family: cursive;
 }
+#heading-2{
+    text-align: center;
+}
+#color-block-4{
+    background-color: #21295C;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#color-block-5{
+    background-color: #1B3B6F;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#color-block-6{
+    background-color: #065A82;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
