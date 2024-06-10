@@ -4,4 +4,24 @@
 #color-block-1{
     background-color: #7f0799;
     padding: 24px;
+    text-align: center;
+    font-family: cursive;
+}
+#heading-2{
+    text-align: center;
+}
+#color-block-2{
+    background-color: #9649CB;
+    padding: 24px;
+    text-align: center;
+    font-family: cursive;
+}
+#heading-2{
+    text-align: center;
+}
+#color-block-3{
+    background-color: #AFBBF2;
+    padding: 24px;
+    text-align: center;
+    font-family: cursive;
 }
