@@ -1,69 +1,81 @@
-#heading-1{
+#heading-1 {
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#color-block-1{
+#color-block-1 {
     background-color: #7f0799;
     padding: 24px;
     text-align: center;
     font-family: cursive;
+    color: pink;
 }
-#heading-2{
+#heading-2 {
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#color-block-2{
+#color-block-2 {
     background-color: #9649CB;
     padding: 24px;
     text-align: center;
     font-family: cursive;
+    color: white;
 }
-#heading-3{
+#heading-3 {
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#color-block-3{
+#color-block-3 {
     background-color: #AFBBF2;
     padding: 24px;
     text-align: center;
     font-family: cursive;
+    color: purple;
 }
-#heading-2{
+#heading-2 {
     text-align: center;
 }
-#color-block-4{
+#color-block-4 {
     background-color: #21295C;
     padding: 24px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightgray;
 }
-#color-block-5{
+#color-block-5 {
     background-color: #1B3B6F;
     padding: 24px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightblue;
 }
-#color-block-6{
+#color-block-6 {
     background-color: #065A82;
     padding: 24px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
 }
 
-#color-block-7{
+#color-block-7 {
     background-color: #C0C999;
     padding: 24px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #065A82;
 }
-#color-block-8{
+#color-block-8 {
     background-color: #FD96A9;
     padding: 24px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
 }
-#color-block-9{
+#color-block-9 {
     background-color: #F62DAE;
     padding: 24px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aqua;
 }
 
 
