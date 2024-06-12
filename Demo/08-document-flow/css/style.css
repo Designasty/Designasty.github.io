@@ -1,0 +1,9 @@
+.narrow {
+    width: 200px;
+    display: inline-block;
+    background-color: pink;
+}
+#color {
+    background-color: aqua;
+}
+
