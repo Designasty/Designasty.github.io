@@ -30,15 +30,15 @@
 }
 
 #small-pic-container img {
-    width: 50%;
+    width: 90px;
 }
 
 #data-fields {
     display: inline-block;
 }
 
-#data-left div,
-#data-right div {
+#data-left,
+#data-right {
     display: inline-block;
 }
 
@@ -63,6 +63,7 @@ h1 {
     background-color: rgb(1, 1, 184);
     color: white;
     padding: 10px 100px;
+    margin-top: -10px;
 }
 
 div span {
@@ -75,6 +76,7 @@ div span {
 
 #address {
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 div span {
@@ -85,11 +87,12 @@ div span {
 #data-left {
     color: blue;
     text-align: left;
+    margin-left: 10px;
 }
 
 #data-right {
     color: blue;
-    text-align: right;
+    margin-left: 10px;
 }
 
 #donor {
@@ -97,12 +100,15 @@ div span {
 }
 
 #signature {
-    font-family: cursive
+    font-family: "Imperial Script", cursive;
+    font-weight: 800;
+    font-style: normal;
 }
+    
 
-#data-fields div,
-#data-left div {
-    display: block;
+#data-fields,
+#data-left {
+    display: inline-block;
 }
 #small-pic-container {
     display: inline-block;
