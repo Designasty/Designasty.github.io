@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    max-width: 1000px;
+    padding: 24px;
+    margin: 0% auto;
+}
+.light-container {
+    background-color: pink;
+}
