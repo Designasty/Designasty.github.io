@@ -16,7 +16,6 @@
     border-radius: 100%;
     align-items: center;
     margin: 40px;
-
 }
 
 .card-style-2 {
@@ -34,6 +33,7 @@
 
 .brand-name {
     font-size: 30px;
+    padding-left: 50px;
 }
 
 .card-style-2 .profile-pic-container {
@@ -54,3 +54,9 @@
     text-align: center;
     font-size: 30px;
 }    
+
+.card-container {
+    justify-content: space-between;
+    display: flexbox;
+    object-fit: cover;
+}
