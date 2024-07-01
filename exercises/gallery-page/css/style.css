@@ -21,6 +21,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    border-radius: 40px;
 
 }
 
@@ -68,4 +69,5 @@ h3 {
     width: 100%;
     margin-bottom: 15px;
     box-shadow: 5px 5px 5px rgb(7, 7, 7);
+    border-radius: 40px;
 }
