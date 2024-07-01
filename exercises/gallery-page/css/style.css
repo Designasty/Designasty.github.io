@@ -25,15 +25,15 @@ body {
 }
 
 #hero h2 {
-    font-size: 8vw;
-    margin-bottom: 5vh;
+    font-size: 60px;
+    margin-bottom: 20px;
     color: rgb(250, 189, 110);
     text-align: center;
     padding: 30px;
 }
 
 #hero h4 {
-    font-size: 3vw;
+    font-size: 30px;
     margin: 10px 10px;
     color: rgb(250, 189, 110);
     text-align: center;
