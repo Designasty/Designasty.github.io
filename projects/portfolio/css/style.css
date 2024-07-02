@@ -251,6 +251,7 @@ h4 {
 
 h1 {
     font-weight: bold;
+    color: green;
     background-color: rgb(186, 248, 186);
     margin: 50px;
     padding: 10px;
@@ -260,4 +261,26 @@ h1 {
 
 h4 {
     font-style: oblique;
+    color: green;
 }
+
+.profile {
+    display: flex;
+    padding: 50px;
+    border-radius: 80%;
+    align-items: center;
+
+   
+}
+
+.content-me p {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    background-color: rgb(186, 248, 186);
+    margin: 40px;
+    padding: 10px;
+    border: 3px solid green;
+    flex: 1;
+}
+   
