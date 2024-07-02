@@ -230,17 +230,34 @@ h3 {
     text-align: center;
 }
 
-.entry1 {
+.entry1,
+.entry2,
+.entry3 {
     border: 2px solid green;
     height: 50px;
     background-color: white;
     max-width: 600px;
+    margin-left: 20px;
 }
 
-.entry2 {
-    border: 2px solid green;
+.contact-box h5 {
+    margin-left: 20px;
 }
 
-.entry3 {
-    border: 2px solid green;
+h1,
+h4 {
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    background-color: rgb(186, 248, 186);
+    margin: 50px;
+    padding: 10px;
+    border: 3px solid green;
+    min-width: 150px;
+}
+
+h4 {
+    font-style: oblique;
 }
