@@ -9,21 +9,22 @@ body {
 }
 
 #layout {
-    max-width: 600px;
+    max-width: 1600px;
     margin: 40px auto;
     text-align: center;
 }
 
 #hero {
-    background-image: url(../images/photo7.jpg);
-    opacity: 80%;
     height: 50vh;
-    background-size: cover;
-    background-position: center center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;    
+    align-items: flex-end;
+    background:
+     linear-gradient(rgba(0, 128, 0, 0.137), rgba(0, 128, 0, 0.226)),
+     url("../images/photo7.jpg");   
+     background-size: cover;
+     background-position: right center;   
 }
 
 #hero h2 {
@@ -104,48 +105,49 @@ h3 {
 }
 
 .card1 {
-    width: 350px;
-    border: 2px solid #ffe4da;
     border-radius: 5px;
+    color: rgb(14, 83, 14);
     padding: 10px;
-    box-shadow: -4px 4px 12px #ceaaaa;
+    box-shadow: -4px 4px 12px  rgb(123, 202, 123);
     background-color: rgb(123, 202, 123);
     padding: 40px;
     margin: 40px;
     border:5px solid green;
     display: flex;
     flex-direction: column;
+    flex: 400px;
 }
 
 .card2 {
-    width: 350px;
-    border: 2px solid #ffe4da;
     border-radius: 5px;
+    color: rgb(14, 83, 14);
     padding: 10px;
-    box-shadow: -4px 4px 12px #ceaaaa;
+    box-shadow: -4px 4px 12px rgb(123, 202, 123);
     background-color: rgb(123, 202, 123);
     padding: 40px;
     margin: 40px;
     border:5px solid green;
     display: flex;
     flex-direction: column;
+    flex: 400px;
 }
 
 .card3 {
-    width: 350px;
-    border: 2px solid #ffe4da;
     border-radius: 5px;
+    color: rgb(14, 83, 14);
     padding: 10px;
-    box-shadow: -4px 4px 12px #ceaaaa;
+    box-shadow: -4px 4px 12px  rgb(123, 202, 123);
     background-color: rgb(123, 202, 123);
     padding: 40px;
     margin: 40px;
     border:5px solid green;
     display: flex;
     flex-direction: column;
+    flex: 400px;
 }
 
 .card1 a {
+    color: green;
     text-decoration: none;
     background-color: rgb(186, 248, 186);
     margin: 20px;
@@ -155,6 +157,7 @@ h3 {
 
 .card2 a {
     text-decoration: none;
+    color: green;
     background-color: rgb(186, 248, 186);
     margin: 20px;
     padding: 10px;
@@ -162,6 +165,7 @@ h3 {
 }
 
 .card3 a {
+    color: green;
     text-decoration: none;
     background-color: rgb(186, 248, 186);
     margin: 20px;
@@ -177,6 +181,7 @@ h3 {
     margin: 40px;
     padding: 10px;
     border: 3px solid green;
+    flex: 1;
 }
 
 .da a {
@@ -187,6 +192,7 @@ h3 {
     margin: 20px;
     padding: 10px;
     border: 3px solid green;
+    min-width: 150px;
 }
 
 .photo a {
@@ -197,4 +203,44 @@ h3 {
     margin: 20px;
     padding: 10px;
     border: 3px solid green;
+}
+
+.content1 {
+    display: flex;
+}
+
+.content2 {
+    display: flex;
+}
+
+.contact-box {
+    margin: 50px;
+    border: 5px solid green;
+}
+
+.contact-box a {
+    display: inline-block;
+    color: green;
+    text-decoration: none;
+    background-color: rgb(186, 248, 186);
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid green;
+    min-width: 150px;
+    text-align: center;
+}
+
+.entry1 {
+    border: 2px solid green;
+    height: 50px;
+    background-color: white;
+    max-width: 600px;
+}
+
+.entry2 {
+    border: 2px solid green;
+}
+
+.entry3 {
+    border: 2px solid green;
 }
