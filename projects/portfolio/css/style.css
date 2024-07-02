@@ -266,11 +266,16 @@ h4 {
 
 .profile {
     display: flex;
+    margin-left: 40px;
     padding: 50px;
-    border-radius: 80%;
-    align-items: center;
-
-   
+    background:radial-gradient(
+        rgb(186, 248, 186),
+         green, 
+         rgb(186, 248, 186), 
+         green
+    );
+    border-radius: 60%;
+    align-items: center;   
 }
 
 .content-me p {
@@ -284,3 +289,8 @@ h4 {
     flex: 1;
 }
    
+#hello {
+    margin-left: 40px;
+    font-style: oblique;
+    color: green;
+}
