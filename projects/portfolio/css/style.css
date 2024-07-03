@@ -264,29 +264,44 @@ h4 {
     color: green;
 }
 
-.profile {
+.content-me {
     display: flex;
     margin-left: 40px;
     padding: 50px;
+    align-items: center;  
+    max-width: 1000px; 
+}
+
+.me-img {
     background:radial-gradient(
         rgb(186, 248, 186),
-         green, 
+         rgb(137, 250, 137), 
          rgb(186, 248, 186), 
-         green
+         rgb(22, 63, 22)
     );
-    border-radius: 60%;
-    align-items: center;   
+    flex: 1;
+    padding: 20px;
+}
+
+.single-column {
+    width: 1000px;
+    margin: 60px auto;
+}
+
+.profile {
+    width: 100%;
+}
+
+.text {
+    flex: 1;
 }
 
 .content-me p {
-    display: flex;
-    flex: 1;
     text-align: center;
     background-color: rgb(186, 248, 186);
     margin: 40px;
     padding: 10px;
     border: 3px solid green;
-    flex: 1;
 }
    
 #hello {
@@ -294,3 +309,12 @@ h4 {
     font-style: oblique;
     color: green;
 }
+
+#icon {
+    width: 300px;
+}
+
+.fb-ig {
+   margin-left: 100px;    
+}
+
