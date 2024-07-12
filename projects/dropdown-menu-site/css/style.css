@@ -40,6 +40,13 @@ body {
 
 .dropdown-menu {
     position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
 }
 
 .dropdown-menu a {
@@ -58,6 +65,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-right: 20px;
+    font-size: 20;
 }
 
 #navbar-info {
@@ -68,8 +76,61 @@ body {
 #navbar-info a {
     text-decoration: none;
     color: purple;
-    border: 3px solid purple;
-    padding: 10px;
-    border-radius: 10px;
 }
 
+#hero {
+    background-image: url("../images/pet-hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+    
+#hero h2 {
+    font-size: 3vw;
+    margin-bottom: 5vh;
+    margin-right: 10vw;
+    padding-left: 30px;
+}
+    
+#hero h4 {
+    font-size: 3vw;
+    margin-bottom: 5vh;
+    margin-right: 10vw;
+    padding-left: 30px;
+}
+
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+}
+      
+.pet img {
+    width: 100%;
+    border: 5px solid rgb(77, 10, 77);
+}
+    
+.pet h2 {
+    font-size: 36px;
+    margin-top: 12px;
+    color: purple;
+}
+    
+.pet p {
+    font-size: 18px;
+}
+
+.pet a {
+    text-decoration: none;
+    color: purple;
+}
+
+.pet a:hover {
+    border-radius: 5px;
+    background-color: purple;
+    padding: 10px;
+    color: white;
+}
