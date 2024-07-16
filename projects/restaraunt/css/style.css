@@ -29,8 +29,12 @@ body {
 }
     
 #navbar a:hover {
-    background-color: #69af6e;
-    color: white;
+    background: linear-gradient(to right,
+        rgb(121, 184, 121),
+        white,
+        rgb(252, 105, 105)
+    );
+    color: black;
 }
 
 #navbar img {
@@ -40,6 +44,7 @@ body {
 
 #navbar #flag {
     width: 50px;
+    padding-left: 10px;
 }
     
 .dropdown-container {
@@ -65,7 +70,12 @@ body {
 }
 
 #navbar .dropdown-menu a:hover {
-    background: #69af6e;
+    background: linear-gradient(to right,
+    rgb(121, 184, 121),
+    white,
+    rgb(252, 105, 105)
+);
+color: black;
 }
 
 #navbar-info {
@@ -131,11 +141,11 @@ body {
 }
 
 #hero a:hover {
-    background: linear-gradient(
-        rgb(255, 143, 143),
-        white, 
-        rgb(104, 153, 104)
-    );
+    background: linear-gradient(to right,
+        rgb(121, 184, 121),
+        white,
+        rgb(252, 105, 105)
+        );
     color: black;
 }
 
@@ -182,10 +192,10 @@ body {
 }
 
 .cards a:hover {
-    background: linear-gradient(
-        rgb(255, 143, 143),
-        white, 
-        rgb(104, 153, 104)
+    background: linear-gradient(to right,
+        rgb(121, 184, 121),
+        white,
+        rgb(252, 105, 105)
     );
     color: black;
 }
@@ -196,20 +206,20 @@ body {
 
 /*footer*/
 #footer {
-    background: linear-gradient( to left,
-        rgb(255, 143, 143),
-        white, 
-        rgb(104, 153, 104)
-    );
+    background: linear-gradient(to right,
+        rgb(121, 184, 121),
+        white,
+        rgb(252, 105, 105)
+        );
 }
 
 
 #footer-navbar {
-    width: 600px;
+    width: 100%;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding: 20px;
 }
 
 #footer a {
@@ -244,8 +254,131 @@ body {
     padding: 20px;
 }
 
-@media screen and (max-width: 800px) and (min-width:480px) {
-    #navbar {
-     flex-direction: column;
+
+/*menu*/
+
+.single-column {
+    background-color: #c4d18b;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+    justify-content: center;
+}
+    
+    
+.side-by-side .image-container {
+    flex: 1;
+}
+    
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+    
+    
+.side-by-side .image-container img {
+    width: 100%;
+}
+    
+.side-by-side .text-container h3 {
+    font-size: 48px;
+}
+    
+    
+.side-by-side .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(247, 102, 102);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.side-by-side .text-container a:hover {
+    background: linear-gradient(to right,
+    rgb(121, 184, 121),
+    white,
+    rgb(252, 105, 105)
+);
+color: black;
+}
+
+.image-container {
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid black;   
+}
+
+#centered-column1 .card {
+    text-align: center;
+    background-color: #69af6e;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#centered-column1 h2 {
+    text-align: center;
+}
+
+/*about*/
+
+#nonna {
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+#header {
+    text-align: center;
+}
+
+#body {
+    text-align: center;
+    background-color: #c4d18b;
+    margin-bottom: 60px;
+    padding: 20px;
+    border: 3px solid black;
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+@media screen and (max-width: 680px) and (min-width:480px) {
+    #footer-navbar {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
     }
- }
+    .centered-column {
+        flex-direction: column;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    #navbar-info {
+        flex-direction: column;
+    }
+
+    #hero {
+        flex-direction: column;
+    }
+
+    #flag {
+        flex-direction: column;
+    }
+    
+    .side-by-side {
+        flex-direction: column;
+    }
+    }
+ 
