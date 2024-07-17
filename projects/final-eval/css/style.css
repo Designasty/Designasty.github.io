@@ -5,7 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background: linear-gradient(to right,rgb(122, 192, 224),rgb(75, 92, 75));
+    background-color: rgb(190, 212, 176);
 }
 
 .centered-column {
@@ -34,8 +34,6 @@ p {
 h2 {
     font-weight: bold;
 }
-
-
 
 h1 {
     font-weight: bolder;
@@ -117,7 +115,7 @@ h3 {
     padding: 30px;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1000px) and (min-width:905) {
     .centered-column {
         flex-direction: column;
     }
