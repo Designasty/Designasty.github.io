@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: linear-gradient(to right,rgb(122, 192, 224),rgb(75, 92, 75));
+}
+
+.centered-column {
+    width: 100%;  
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#img1,
+#img2 {
+    width: 400px;
+    padding: 20px auto;
+    background-color: rgb(165, 165, 158);
+    border: 2px solid black;
+    border-radius: 20%;
+}
+
+p {
+    width: 100%;  
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+
+
+h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    color: white;
+}
+
+
+.side-by-side img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    margin: 40px 40px 40px 40px;
+
+}
+
+.button1 {
+    display: inline-block;
+    justify-content: space-between;
+    background-color: grey;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+   
+
+.button2 {
+    display: inline-block;
+    justify-content: space-between;
+    background-color: grey;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.button1:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.button2:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
