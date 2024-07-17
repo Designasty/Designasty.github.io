@@ -164,7 +164,8 @@ color: black;
 
 .cards {
     text-align: center;
-    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
       
 .cards img {
@@ -184,7 +185,7 @@ color: black;
 .cards p {
     font-size: 18px;
     text-align: center;
-    flex: 1;
+   flex: 1;
 }
 
 .cards a {
@@ -264,20 +265,24 @@ color: black;
 
 .side-by-side {
     align-items: center;
-    margin: 48px 0px;
+    margin-left: 50px;
+    margin-right: 50px;
     justify-content: center;
+    display: flex;
+    background-color: #69af6e;
 }
     
     
 .side-by-side .image-container {
-    flex: 1;
     margin-left: 50px;
+    flex: 1;
 }
     
 .side-by-side .text-container {
-    flex: 1;
-    padding: 20px
-    
+    padding: 20px;
+    flex: 1;   
+    text-align: center;
+    font-size: 30px;
 }
    
 .side-by-side .image-container img {
@@ -285,7 +290,7 @@ color: black;
 }
     
 .side-by-side .text-container h3 {
-    font-size: 48px;
+    font-size: 50px;
 }
 
 .side-by-side .text-container a {
@@ -297,6 +302,7 @@ color: black;
     color: white;
     padding: 20px;
     border-radius: 10px;
+    margin: 40px;
 }
 
 .side-by-side .text-container a:hover {
@@ -310,7 +316,7 @@ color: black;
 
 .image-container {
     width: 100%;
-    margin: 10px;
+    margin: 40px;
     padding: 20px;
     border: 3px solid black;   
 }
