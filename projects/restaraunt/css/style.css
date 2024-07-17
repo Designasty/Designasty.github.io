@@ -184,6 +184,7 @@ color: black;
 .cards p {
     font-size: 18px;
     text-align: center;
+    flex: 1;
 }
 
 .cards a {
@@ -262,7 +263,6 @@ color: black;
 /*menu*/
 
 .side-by-side {
-    display: flex;
     align-items: center;
     margin: 48px 0px;
     justify-content: center;
@@ -276,10 +276,10 @@ color: black;
     
 .side-by-side .text-container {
     flex: 1;
-    padding: 20px 20px;
+    padding: 20px
+    
 }
-    
-    
+   
 .side-by-side .image-container img {
     width: 100%;
 }
@@ -287,8 +287,7 @@ color: black;
 .side-by-side .text-container h3 {
     font-size: 48px;
 }
-    
-    
+
 .side-by-side .text-container a {
     font-size: 28px;
     font-weight: bold;
